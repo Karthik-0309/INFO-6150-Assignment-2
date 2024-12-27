@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+         rel="stylesheet"
+         />
+      <link rel="icon" type="image/x-icon" href="./Images/Portfolio_Favicon.png">
+      <link rel="stylesheet" href="style.css" />
+      <title>Karthik Kashyap Protfolio</title>
+   </head>
+   <body>
+      <header class="header">
+         <nav class="main-nav">
+            <ul class="main-nav-list">
+               <li><a class="main-nav-link" href="#Aboutme01">About Me</a></li>
+               <li><a class="main-nav-link" href="#Projects01">Projects</a></li>
+               <li><a class="main-nav-link" href="#WorkExperience01">Work-experience</a></li>
+               <li><a class="main-nav-link" href="#Certifications01">Certifications</a></li>
+               <li><a class="main-nav-link" href="#Recommandations01">Recommendations</a></li>
+               <li><a class="main-nav-link nav-cta" href="#GetInTouch01">Get In Touch</a></li>
+            </ul>
+         </nav>
+         <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+         </button>
+      </header>
+      <!-- ------------------------------Hero Section------------------------------------------------------ -->
+      <main>
+         <section class="section-hero">
+            <div class="hero">
+               <div class="hero-text-box">
+                  <h1 class="heading-primary">Hi, I'm Karthik Kashyap</h1>
+                  <p class="hero-description">
+                     With over 2.5 years of experience at Accenture, I have held roles including Automation Developer, Business Analyst, and Frontend Web Developer. My expertise spans HTML, CSS, JavaScript, and Java, and I am proficient in using the Protractor framework for automation. Additionally, I have skills in negotiation, reporting, client relationship management, and performance optimization. I hold a degree in Information Science and am currently pursuing a Master’s in Information Systems, seeking opportunities that align with my background and career aspirations.
+                  </p>
+                  <a href="Images/2) Resume.pdf" download class="btn btn--full margin-right-sm"
+                     >Resume</a>
+                  <a href="#ToKnowmoreaboutMyself01" class="btn btn--outline"
+                     >To Know more about Myself &darr;</a
+                     >
+               </div>
+               <div class="hero-img-box">
+                  <img
+                     src="Images/Hero-Image.png"
+                     alt="Image to enhance the display of websiet"
+                     class="hero-img"
+                     />
+               </div>
+            </div>
+         </section>
+         <!-- ---------------------------------End of Hero Section-------------------------------------------------- -->
+         <!-- ----------------------------------About Me section----------------------------------------------------- -->
+         <main>
+            <section class="about-align" id="Aboutme01">
+               <div id="about">
+                  <div class="container--carousel">
+                     <div class="carousel">
+                        <div class="row">
+                           <div class="about-col-1">
+                              <img src="Images/MyImageContainer.png" class="my-image" />
+                           </div>
+                           <div class="about-col-2">
+                              <h1 class="sub-title--me">About Me</h1>
+                              <p id="about--metext">
+                                 <strong
+                                    >"I'm someone who thrives on doing what brings me joy,
+                                 constantly immersed in the world of technology that I
+                                 deeply admire. For me, being part of the technological
+                                 evolution isn't just a choice; it's a passion that fuels
+                                 my every endeavor."</strong
+                                    >
+                              </p>
+                              <div class="tab-titles">
+                                 <p
+                                    class="tab-links active-link"
+                                    onclick="opentab('Skills')"
+                                    >
+                                    Skills
+                                 </p>
+                                 <p class="tab-links" onclick="opentab('Experience')">
+                                    Experience
+                                 </p>
+                                 <p class="tab-links" onclick="opentab('Education')">
+                                    Education
+                                 </p>
+                              </div>
+                              <div class="tab-contents active-tab" id="Skills">
+                                 <ul>
+                                    <li>
+                                       <span>Programming Language</span><br />
+                                       <text
+                                          >Java,Python,Javascript</text
+                                          >
+                                    </li>
+                                    <li>
+                                       <span>Web Development</span><br />
+                                       <text
+                                          >HTML,CSS</text
+                                          >
+                                    </li>
+                                    <li>
+                                       <span>Database</span><br />
+                                       <text>Oracle,MySQL</text>
+                                    </li>
+                                    <li>
+                                       <span>Tools</span><br />
+                                       <text
+                                          >Eclipse IDE,VS code,Jira,SoupUI,SwaggerUI,Mircosoft Azure Scrum Boards</text
+                                          >
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="tab-contents" id="Experience">
+                                 <ul>
+                                    <li>
+                                       <span>2023 - 2024</span><br />
+                                       <text
+                                          >Software Engineer Analyst at Accenture. <i>( Business Analyst/FrontEnd-Developer )</i></text
+                                          >
+                                    </li>
+                                    <li>
+                                       <span>2021 - 2023</span><br />
+                                       <text
+                                          >Associate Software Engineer at Accenture. <i>( Test Automation Developer )</i></text
+                                          >
+                                    </li>
+                                    <li>
+                                       <span>2021</span><br />
+                                       <text>Intership at DHS. <i>( Mobile App Developer )</i></text>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="tab-contents" id="Education">
+                                 <ul>
+                                    <li>
+                                       <span>2024 - present</span><br />
+                                       <text
+                                          >Currently pursuing a <i>Master’s degree in Information Systems</i> at Northeastern University.</text
+                                          >
+                                    </li>
+                                    <li>
+                                       <span>2017 - 2021</span><br />
+                                       <text
+                                          >Completed an <i>undergraduate degree in Information Science</i> from SJB Institute of Technology.</text
+                                          >
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- ------------------------------------End of About me section------------------------------------------------------ -->
+            <!-- -----------------------------------------Projects Section-------------------------------------------------------- -->
+            <section class="section-how" id="Projects01">
+               <div class="container">
+                  <h2 class="heading-secondary">
+                     The projects which I have developed.
+                  </h2>
+               </div>
+               <div class="container grid grid--2--cols .grid--center-v">
+                  <!-- STEP 01 -->
+                  <div class="step-text-box">
+                     <p class="step-number">01</p>
+                     <h3 class="heading-tertiary">Driver Drowsiness detection</h3>
+                     <p class="step-description">
+                        During my final undergraduate year, I worked on a project aimed at reducing road accidents in India, where rising vehicle numbers and inadequate driver training are key issues. The system utilizes real-time data from cameras and MEMS devices to monitor driver conditions, issuing alerts through vibrations and notifications if drowsiness or distraction is detected. In critical situations, it can disable the ignition and activate hazard lights. OpenCV is the library used for image processing tasks in this project. The approach applies both Unsupervised Learning to uncover data patterns and Supervised Learning to predict outcomes based on labeled examples. This methodology, encompassing data collection, analysis, and algorithm development, seeks to enhance road safety effectively.
+                     </p>
+                  </div>
+                  <div class="step-img-box">
+                     <img
+                        src="Images/Driver.jpg"
+                        class="step-img"
+                        alt="Driver Drowsiness detection image"
+                        />
+                  </div>
+                  <!-- STEP 02 -->
+                  <div class="step-img-box">
+                     <img
+                        src="Images/Food web.jpg"
+                        class="step-img"
+                        alt="A food image of Web project"
+                        />
+                  </div>
+                  <div class="step-text-box">
+                     <p class="step-number">02</p>
+                     <h3 class="heading-tertiary">Omnifood Web Project</h3>
+                     <p class="step-description">
+                        Introducing Omnifood, an innovative web-based platform dedicated
+                        to fostering health-conscious lifestyles through personalized
+                        meal delivery services. Utilizing cutting-edge AI algorithms,
+                        Omnifood curates daily meal options tailored to individual user
+                        preferences and dietary requirements. Crafted with HTML markup
+                        language and Cascading Style Sheets (CSS), the platform boasts a
+                        visually captivating interface, enriched by the strategic
+                        implementation of CSS Flexbox and Grid techniques. Subscribers
+                        benefit from the convenience of regular, nutritious meal
+                        deliveries, empowering them to maintain optimal health and
+                        wellness with ease and consistency.
+                     </p>
+                  </div>
+                  <!-- STEP 03 -->
+                  <div class="step-text-box">
+                     <p class="step-number">03</p>
+                     <h3 class="heading-tertiary">SmartInventory DBMS Project</h3>
+                     <p class="step-description">
+                        The SmartInventoryDBMS is a sophisticated database management system designed to streamline inventory control for small to medium-sized businesses. It utilizes a relational database model with SQL for real-time tracking of inventory levels, order management, and supplier coordination. The system efficiently updates stock information, manages purchase and sales orders, and maintains supplier records. It also provides detailed reports on inventory status and supplier performance while sending automated alerts for low stock and pending orders. Built with SQL and enhanced by OpenCV for data processing, SmartInventoryDBMS ensures precise and effective inventory management.
+                     </p>
+                  </div>
+                  <div class="step-img-box">
+                     <img
+                        src="Images/Database (1).jpg"
+                        class="step-img"
+                        alt="Database management system heading for UI appeal"
+                        />
+                  </div>
+               </div>
+            </section>
+         </main>
+         <!-- ---------------------------------------------End of projects section--------------------------------------------------- -->
+         <!-- ------------------Work Experience--------------------------------------------------------------------------------------- -->
+         <section class="section-experience" id="WorkExperience01">
+            <div class="container center-text">
+               <span class="subheading">A Tapestry of Projects and Roles.</span>
+               <h2 class="heading-secondary hd-workex">Work Experience</h2>
+            </div>
+            <div class="container grid grid--3--cols margin-bottom-md hx-mmgin">
+               <div class="Qualification">
+                  <img src="Images/Maersk.jpg" class="company-img" alt="Maersk Ship Image" />
+                  <div class="Qualification-content">
+                     <div class="Qualification-tags">
+                        <span class="tag tag--position">Automation Developer</span>
+                     </div>
+                     <p class="Qualification-title">Freight and Logistics Software</p>
+                     <p class="company-text">
+                        I served as a Test Automation Developer at Accenture, where we provided services for AP Moller Maersk, one of the leading global carriers. My responsibilities involved enhancing the testing process by designing and developing automated test programs for our application. We utilized Java as the programming language and employed the Protractor framework to implement these automated tests.
+                     </p>
+                  </div>
+               </div>
+               <div class="Qualification">
+                  <img src="Images/Umlaut.jpg" class="company-img" alt="Japanese Gyozas" />
+                  <div class="Qualification-content">
+                     <div class="Qualification-tags">
+                        <span class="tag tag--position">Frontend Developer and Business Analyst</span>
+                     </div>
+                     <p class="Qualification-title">umlauT</p>
+                     <p class="company-text">
+                        UmlauT, a German government initiative, sought to improve healthcare by deploying on-site paramedics supported remotely by telemedics until the patient could be transported to a hospital. Initially serving as a Frontend Developer, I later transitioned to a Business Analyst role. The project adhered to Agile and DevOps methodologies throughout its development cycle. This experience provided invaluable insights into the complexities of the medical field and the European healthcare business model.
+                     </p>
+                  </div>
+               </div>
+               <div class="diets">
+                  <h3 class="heading-tertiary">Key Takeaways:</h3>
+                  <ul class="list">
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>Designing Automated Solutions</span>
+                     </li>
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>Programming and Scripting</span>
+                     </li>
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>Responsive UI Design</span>
+                     </li>
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>User-Centric Design</span>
+                     </li>
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>Integration and Deployment</span>
+                     </li>
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>Performance Optimization</span>
+                     </li>
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>Product Backlog Management</span>
+                     </li>
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>Reporting and Analysis</span>
+                     </li>
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>Client Relationship Management</span>
+                     </li>
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>Negotiation Skills</span>
+                     </li>
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>Performance Enhancement</span>
+                     </li>
+                     <li class="list-item">
+                        <ion-icon class="Qualification-icon" name="arrow-forward-outline"></ion-icon>
+                        <span>Documentation and Knowledge Sharing</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <!-- <--------------------------------------End of Work Experience Section---------------------------------------------------------- -->
+         <!-- ---------------------------Certifications-------------------------------------------- -->
+         <section class="section-Certifications" id="Certifications01">
+            <div class="container center-text">
+               <div class="container">
+                  <h2 class="heading-secondary">Certifications</h2>
+                  <div class="services-list">
+                     <div class="services-content">
+                        <img src="Images/Automation Testing.png" alt="Automated Software Testing" class="service-image">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Automated Software Testing</h2>
+                        <a href="https://skillsoft.digitalbadges.skillsoft.com/39503014-6e42-48d0-8f90-2437db1fccea#gs.f9oph0">Learn more</a>
+                     </div>
+                     <div class="services-content">
+                        <img src="Images/Agile and TDD.png" alt="Agile & TDD Best Practices for APIs" class="service-image">
+                        <i class="fa-sharp fa-solid fa-crop"></i>
+                        <h2>Agile & TDD Best Practices for APIs</h2>
+                        <a href="https://skillsoft.digitalbadges.skillsoft.com/d2a12018-aa67-4e28-94ed-438f0db9e392#gs.elg2lj">Learn more</a>
+                     </div>
+                     <div class="services-content">
+                        <img src="Images/Software Design and development.png" alt="Software Design and Development" class="service-image">
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Software Design and Development</h2>
+                        <a href="https://skillsoft.digitalbadges.skillsoft.com/0740384a-d541-42f8-a3f8-924df13a1adb#gs.elg2x6">Learn more</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- <-----------------------------------End of Certifications--------------------------------------------> 
+         <!-- -----------------------------------------------Recommandations Section ------------------------------------------------------------- -->
+         <section class="section-testimonials" id="Recommandations01">
+            <div class="container testimonials-container">
+               <span class="subheading">Recommendations Received</span>
+               <table class="testimonials-table">
+                  <thead>
+                     <tr>
+                        <th>Photo</th>
+                        <th>Testimonial</th>
+                        <th>Name</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td><img class="testimonial-img" alt="Photo of Mohammad Mahather" src="Images/mahather.jpg" /></td>
+                        <td>
+                           <blockquote class="testimonial-text">
+                              I had the pleasure of working alongside Karthik as they spearheaded automation initiatives and managed QA testing with exceptional proficiency. He possesses an innate ability to quickly grasp new technologies and adapt seamlessly, making his contributions invaluable to our team's success. Karthik consistently demonstrated a high level of dedication, coupled with a knack for delivering results efficiently. His ability to seamlessly adapt to various tasks and technologies makes him an asset to any team.
+                           </blockquote>
+                        </td>
+                        <td class="testimonial-name">— Mohammad Mahather</td>
+                     </tr>
+                     <tr>
+                        <td><img class="testimonial-img" alt="Photo of Karthika suresh" src="Images/karthika.png" /></td>
+                        <td>
+                           <blockquote class="testimonial-text">
+                              I managed Karthik on the Maersk project, where his exceptional technical skills and proactive approach were instrumental. His ability to automate test cases and maintain high code quality exceeded expectations, while his proactive attitude in client calls demonstrated his initiative. Karthik's collaborative spirit and professionalism set a high standard for the team's collective goals. I sincerely appreciate Karthik's outstanding performance on the project. His continued growth and contributions will undoubtedly be invaluable in future endeavors.
+                           </blockquote>
+                        </td>
+                        <td class="testimonial-name">— Karthika Suresh</td>
+                     </tr>
+                     <tr>
+                        <td><img class="testimonial-img" alt="Photo of Santoshini Mohini" src="Images/Santoshini.jpg" /></td>
+                        <td>
+                           <blockquote class="testimonial-text">
+                              Karthik has been working in my team as a tester for a year now. I would appreciate his quick grasping power of the product and process. He immediately acted as an experienced team member and holds great communication skills to collaborate with the product stakeholders. He ensures to execute and present his deliveries with great quality and confidence. And a person I found him who can highlight the risks or concerns to the stakeholders efficiently (at product as well as process level). Karthik is very much adaptable to any work environment!
+                           </blockquote>
+                        </td>
+                        <td class="testimonial-name">— Santoshini Mohini</td>
+                     </tr>
+                     <tr>
+                        <td><img class="testimonial-img" alt="Photo of Karthika Vijayananda" src="Images/Karthika vijayananda.jpg" /></td>
+                        <td>
+                           <blockquote class="testimonial-text">
+                              I had the pleasure of managing Karthik during his tenure at Accenture, where he embarked on his first project as a fresher. Throughout our collaboration, I observed Karthik's exceptional communication skills and his innate ability to connect with people effortlessly. He consistently demonstrated his dedication to supporting clients through various ad-hoc requests, while also ensuring seamless collaboration within the team to enhance project outcomes.
+                              <br><br>
+                              One of his notable contributions is his adeptness at automating modules from scratch, which significantly helped in streamlining the testing process and yielded excellent results. His proficiency in this area did not only save time but also enhanced the overall efficiency of our project operations.
+                              <br><br>
+                              Also, Karthik consistently delivered high-quality reports for client meetings, effectively highlighting the team's accomplishments and progress. His meticulous attention to detail and clear presentation style greatly facilitated the communication.
+                              <br><br>
+                              It was a pleasure collaborating with him and I wholeheartedly recommend him for any future endeavors. Best wishes Karthik!
+                           </blockquote>
+                        </td>
+                        <td class="testimonial-name">— Karthika Vijayananda</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </section>
+         <!-- ----------------------------------------End of Recommendations section----------------------------------------------------------- -->
+         <!-- --------------------------To know more about my self--------------------------------------- -->
+         <section class="section-cta" id="ToKnowmoreaboutMyself01">
+            <div class="container">
+               <div class="cta">
+                  <div class="cta-text-box">
+                     <h2 class="heading-secondary" >To Know More about Myself</h2>
+                     <p class="cta-text">
+                        Born in the picturesque city of Mysore, Karnataka, my journey took a significant turn when I moved to the vibrant metropolis of Bangalore in the 1st grade. From primary school through my Bachelor of Engineering, Bangalore became my beloved home, a city I deeply admire for its dynamic people and pulsating energy. My hobbies are as diverse as the city itself—I relish the strategic intricacies of chess, the swift rallies of badminton, the camaraderie of cricket, and the laughter of card games during cozy gatherings with friends and family. Nighttime drives and bike rides through the city streets are my ultimate stress relievers, providing a serene escape from the hustle and bustle. A joyful, easygoing, and sociable individual, I thrive in the company of my many friends and excel in connecting with people. Driven by a passion for continuous learning and societal contribution, I am especially captivated by the ever-evolving world of technology and innovations. My goal is to harness this enthusiasm to make meaningful contributions to society, one day at a time.
+                     </p>
+                  </div>
+                  <div
+                     class="cta-img-box"
+                     role="img"
+                     aria-label="my-Image"
+                     > 
+                  </div>
+               </div>
+            </div>
+            <details class="cta-text center-text">
+               <summary class="Summary-text"><b>To Know more</b></summary>
+               <p class="cta-text">Events that I hosted</p>
+               <video width="70%" height="auto" controls autoplay>
+                  <source src="./video/Event Hosted.mp4" type="video/webm">
+               </video>
+               <details class="cta-text center-text">
+                  <summary class="Summary-text"><b>Click here for audio file</b></summary>
+                  <audio controls>
+                     <source src="./audio/Audio explaining.mp3" type="audio/mpeg">
+                  </audio>
+               </details>
+            </details>
+         </section>
+      </main>
+      <!-- -------------------End of to know about myself-------------------------------------- -->
+      <!-- ------------------------------------Get in touch section-------------------------------------- -->
+      <footer class="footer">
+         <h2 class="heading-secondary footer-center" id="GetInTouch01">Get In Touch</h2>
+         <div class="getInTouch">
+         <div id="Contact">
+            <div class="container">
+               <div class="row001">
+                  <div class="contact-left">
+                     <h3 class="heading-tertiary">Contact Info</h3>
+                     <menu class="social-icons">
+                        <li class="list-item001">
+                           <a href="tel:+1 862-777-4812">
+                              <ion-icon class="strokeicons" name="call-outline"></ion-icon>
+                           </a>
+                           <span class="footer-text" >: (+1) 8627774812</span>
+                        </li>
+                        <li class="list-item001">
+                           <a href="mailto:karthikashyap.03@gmail.com" target="_blank">
+                              <ion-icon class="strokeicons" name="mail-outline"></ion-icon>
+                           </a>
+                           <a href="mailto:karthikashyap.03@gmail.com" class="footer-text"><span class="footer-text" >: karthikashyap.03@gmail.com</span></a>
+                        </li>
+                        <li class="list-item001">
+                           <a href="https://www.linkedin.com/in/karthikashyaprp" target="_blank">
+                              <ion-icon class="strokeicons"  name="logo-linkedin"></ion-icon>
+                           </a>
+                           <a class="myname-link" href="https://www.linkedin.com/in/karthikashyaprp" target="_blank"><span class="footer-text" >: <strong>karthik Kashyap</strong></span></a>
+                        </li>
+                     </menu>
+                  </div>
+                  <div class="contact-right">
+                     <form>
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input
+                           type="email"
+                           name="email"
+                           placeholder="Your Email"
+                           required
+                           />
+                        <textarea
+                           name="Message"
+                           rows="6"
+                           placeholder="Your Message"
+                           ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <p class="Assignment-text">A Website for INFO6150 Assignemnt 2 - Fall 2024 by Karthik Kashyap R P</p>
+            <p><a href="mailto:ramasamudraphanees.k@northeastern.edu" class="Neu-mail">ramasamudraphanees.k@northeastern.edu</a></p>
+      </footer>
+
+      <!-- ---Java--Script--- -->
+      <script>
+         var tablinks = document.getElementsByClassName("tab-links");
+         var tabcontents = document.getElementsByClassName("tab-contents");
+         
+         function opentab(tabname) {
+           for (tablink of tablinks) {
+             tablink.classList.remove("active-link");
+           }
+           for (tabcontent of tabcontents) {
+             tabcontent.classList.remove("active-tab");
+           }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+         }
+      </script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <script>const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
+</Script>
+      </main>
+   </body>
+</html>
